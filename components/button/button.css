@@ -1,0 +1,31 @@
+.container {
+	padding: 10px;
+}
+
+.button {
+	text-decoration: none;
+	border: 2px solid rgb(240, 241, 241);
+	border-radius: 50px;
+	padding: 10px 20px;
+}
+
+.button.button__terciary {     
+	color: rgb(180, 183, 188);     
+	background-color: #fff;
+}
+
+.button.button__terciary--color {
+	color: rgb(4, 140, 244)
+}
+
+.button.button__secondary {     
+	color: #fff;
+	background-color: rgb(54, 64, 73);
+	border: none;
+}
+
+.button.button__primary {     
+	color: #fff;
+	background-color: rgb(4, 140, 244);
+	border: none;
+}
