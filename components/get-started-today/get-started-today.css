@@ -1,0 +1,21 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.get-started-today {
+	background-color: rgb(4, 140, 244);  
+	display: flex;
+	color: #fff;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+.get-started-today__title {
+	margin: 10px;
+}
+
+.get-started-today .button__secondary {
+	padding-top: 10px;
+	margin: 10px;
+}
