@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.icon{
+	border-radius: 50%;
+	width: 2em;
+	height: 2em;
+	padding: 0.5em;
+	background-color: #33569a;
+	text-align: center;
+	color: #ffffff;
+}
+.icon--twitter{
+	background-color: #2aaae0;
+}
+.icon--linkedin{
+	background-color: #0077b7;
+}
+.icon--instagram{
+	background-color: #527fa4;
+}
