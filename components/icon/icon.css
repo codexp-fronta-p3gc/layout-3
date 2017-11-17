@@ -4,6 +4,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
 .icon{
@@ -14,4 +15,13 @@
 	background-color: #33569a;
 	text-align: center;
 	color: #ffffff;
+}
+.icon--twitter{
+	background-color: #2aaae0;
+}
+.icon--linkedin{
+	background-color: #0077b7;
+}
+.icon--instagram{
+	background-color: #527fa4;
 }
