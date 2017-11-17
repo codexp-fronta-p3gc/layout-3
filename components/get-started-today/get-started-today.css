@@ -7,8 +7,11 @@ body {
 	display: flex;
 	color: #fff;
     flex-direction: column;
-    align-items: center;
-    padding: 80px 20px;
+	align-items: center;
+    padding: 50px 20px;
+    justify-content: space-around;
+	min-height: 300px;
+	text-align: center;
 }
 
 .get-started-today__title {
