@@ -3,13 +3,13 @@ body {
 }
 
 .get-started-today {
-	background-color: rgb(4, 140, 244);  
+	background-color: rgb(4, 140, 244);
 	display: flex;
 	color: #fff;
-    flex-direction: column;
+	flex-direction: column;
 	align-items: center;
-    padding: 50px 20px;
-    justify-content: space-around;
+	padding: 50px 20px;
+	justify-content: space-around;
 	min-height: 330px;
 	text-align: center;
 }
