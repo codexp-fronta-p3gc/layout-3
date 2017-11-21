@@ -29,7 +29,6 @@
 }
 
 .reason__step-bg-article-illustration img {
-    position: absolute;
     right: 0;
 }
 
@@ -65,8 +64,8 @@
     .reason__step-bg-article-illustration {
         margin-right: 0;
     }
-
     .reason__step-bg-article-illustration img {
+        position: absolute;
         left: -23%;
         width: 91%;
         bottom: -69%;
@@ -89,7 +88,7 @@
     .reason__step-bg-article-illustration img {
         left: -185px;
         width: 76%;
-        bottom: -92%;
+        bottom: -30%;
     }
     
 }
