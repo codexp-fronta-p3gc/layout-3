@@ -69,6 +69,7 @@
     }
     .step__image {
         align-self: flex-end;
+        transform: none;
     }
 }
 
