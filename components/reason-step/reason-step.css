@@ -26,6 +26,11 @@
 
 .step__image {
     height: 50%;
+    transform: translateX(6%);
+}
+
+.step__image--reverse {
+    transform: translateX(-6%);
 }
 
 .reasons-step {
