@@ -9,22 +9,22 @@
 	padding: 10px 20px;
 }
 
-.button.button__terciary {     
-	color: rgb(180, 183, 188);     
+.button.button--default {
+	color: #8d969d;
 	background-color: #fff;
 }
 
-.button.button__terciary--color {
+.button.button--outline {
 	color: rgb(4, 140, 244)
 }
 
-.button.button__secondary {     
+.button.button--secondary {
 	color: #fff;
 	background-color: rgb(54, 64, 73);
 	border: none;
 }
 
-.button.button__primary {     
+.button.button--primary {
 	color: #fff;
 	background-color: rgb(4, 140, 244);
 	border: none;
