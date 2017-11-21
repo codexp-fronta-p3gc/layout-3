@@ -11,35 +11,34 @@
 </head>
 <body>
 	<header id="hero">
-		
-		<nav class="hero__nav">
-			<a class="nav__title" href="#">reach.me</a>
-			<div class="nav__buttons">
+		<nav class="hero-navbar">
+			<a class="hero-navbar__title" href="#">reach.me</a>
+			<input id="hero-navbar__toggle" type="checkbox">
+			<ul class="navbar-pages">
+				<li class="hero-navbar__link" ><a  href="#">features</a></li>
+				<li class="hero-navbar__link" ><a  href="#">princing</a></li>
+				<li class="hero-navbar__link navbar-pages__link--active"><a href="#">about us</a></li>
+				<li class="hero-navbar__link" ><a  href="#">blog</a></li>
+				<li class="hero-navbar__link" ><a  href="#">contact us</a></li>
+			</ul>
+			<div class="hero-navbar__buttons">
 				<button class="button button__terciary" href="">Log in</button>
 				<button class="button button__terciary--color" href="">Get Started</button>
 			</div>
-			<label class="nav__burguer" for="nav__toggle">
+			<label class="hero-navbar__burguer" for="hero-navbar__toggle">
 				<span></span>
 				<span></span>
 				<span></span>
 			</label>
-			<input id="nav__toggle" type="checkbox">
-			<ul class="nav__links">
-				<li><a href="#">features</a></li>
-				<li><a href="#">princing</a></li>
-				<li><a href="#">about us</a></li>
-				<li><a href="#">blog</a></li>
-				<li><a href="#">contact us</a></li>
-			</ul>
 		</nav>
-		<hr>
-		<section class="hero__reachme-features">
-			<article class="reachme-box">
-				<h1 class="reachme-box__title">Reach.me Features</h1>
-				<h2 class="reachme-box__sub-title">Schudule, Automate, Mensure and Monitor all your social media accounts from  a single dashboard.</h2>
+		<hr class="hero-navbar__line">
+		<section class="hero-reachme">
+			<article class="hero-reachme-box">
+				<h1 class="hero-reachme-box__title">Reach.me Features</h1>
+				<h2 class="hero-reachme-box__sub-title">Schudule, Automate, Mensure and Monitor all your social media accounts from  a single dashboard.</h2>
 				<button class="button button__primary" href="">Learn More</button>
 			</article>
-			<!-- <img class="reachme-img" src="../../img/grafico.jpg" alt=""> -->
+			<img class="hero-reachme-img" src="../../img/hero-foto.png" alt="">
 		</section>
 	</header>
 	

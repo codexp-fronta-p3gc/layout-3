@@ -11,26 +11,19 @@
 	font-family: 'Palanquin Dark', sans-serif;
 }
 /*========= NAVIGATION ==============*/
-.hero__nav{
+.hero-navbar{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 5%;
-	height: 50px;
+	height: 80px;
 }
-.nav__title{
+.hero-navbar__title{
 	color: rgb(4, 140, 244);
 	font-size: 2em;
 }
-#nav__toggle,
-.nav__buttons{
-	display: none;
-}
-.nav__links{
-	display: none;
-}
-.nav__burguer{
+.hero-navbar__burguer{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -38,48 +31,104 @@
 	height: 16px;
 	cursor: pointer;
 }
-.nav__burguer span{
+.hero-navbar__burguer span{
 	display: block;
 	width: 100%;
 	height: 2px;
 	background-color: #ccc;
 	border-radius: 2px;
 }
-
-#nav__toggle:checked + .nav__links{
-	display: block;
-	overflow: auto;
+#hero-navbar__toggle,
+.hero-navbar__buttons{
+	display: none;
 }
-.nav__links{
+.navbar-pages{
+	display: none;
 	width: 100%;
 	padding: 0 5%;
 	position: absolute;
 	left: 0;
 	top: 52px;
 	text-align: right;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
 }
-.hero__reachme-features{
-	padding: 40px 2%;
+.navbar-pages a{
+	color: #687076;
 }
-.reachme-box{
+
+#hero-navbar__toggle:checked + .navbar-pages{
+	display: block;
+	overflow: auto;
+}
+.hero-reachme{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 2%;
+}
+.hero-reachme-box{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	height: 200px;
-	justify-content: space-between;
-	padding: 0 3%;
+	padding: 40px 3%;
 }
-.reachme-box__title{
+.hero-reachme-box__title{
 	font-size: 2em;
 	color: #687076;
+	margin: 15px;
+	line-height: 1em;
 }
-.reachme-box__sub-title{
+.hero-reachme-box__sub-title{
 	font-family: arial;
 	font-size: 1.3em;
 	color: #a6b0ba;
+	margin: 15px;
 }
-.reachme-img{
-	max-width: 100%;
-	height: auto;
+.hero-reachme-img{
+	width: 90%;
+	margin-top: 30px;
+}
+.hero-navbar__line{
+	opacity: 0.2;
+}
+
+@media screen and (min-width: 992px) {
+	.hero-navbar__buttons{
+		display: block;
+		margin: 0 40px 0 auto;
+	}	
+}
+
+@media screen and (min-width: 1200px){
+	.hero-navbar__burguer{
+		display: none;
+	}
+	.hero-navbar__buttons{
+		margin: 0;
+	}	
+	.navbar-pages{
+		display: flex;
+		position: static;
+		justify-content: space-between;
+		width: 50%;
+		max-width: 800px;
+		min-width: 600px;
+		margin: 0 auto;
+	}
+	.hero-reachme-img{
+		max-width: 1300px;
+	}
+	.navbar-pages{
+		height: 100%;
+	}
+	.hero-navbar__link{
+		display: flex;
+		height: 100%;
+		align-items: center;
+	}
+	.navbar-pages__link--active{
+		border-bottom: 3px solid rgb(4, 140, 244);
+	}
 }
